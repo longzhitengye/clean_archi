@@ -1,0 +1,3 @@
+analyzer: 
+  exclude: 
+    - bricks/** # 和analysis_options.yaml并列的目录名
