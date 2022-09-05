@@ -21,8 +21,8 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  module_name:
     type: string
-    description: Your name
+    description: Your module name
     default: Dash
-    prompt: What is your name?
+    prompt: What is your module name?
