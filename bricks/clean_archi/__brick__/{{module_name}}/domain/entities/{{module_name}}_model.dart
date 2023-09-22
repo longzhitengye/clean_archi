@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part of '{{module_name}}_model.freezed.dart';
-part of '{{module_name}}_model.g.dart';
+part  '{{module_name}}_model.freezed.dart';
+part  '{{module_name}}_model.g.dart';
 
 @freezed
 class {{module_name.pascalCase()}}Model with _${{module_name.pascalCase()}}Model {
