@@ -11,7 +11,8 @@ class {{module_name.pascalCase()}}Model with _${{module_name.pascalCase()}}Model
       _${{module_name.pascalCase()}}ModelFromJson(json);
 
   const {{module_name.pascalCase()}}Model._(); 
-  factory {{module_name.pascalCase()}}Model.fromString(String str) =>{{module_name.pascalCase()}}Model.fromJson(json.decode(str) as Json);
+  factory {{module_name.pascalCase()}}Model.fromString(String str) =>
+    {{module_name.pascalCase()}}Model.fromJson(json.decode(str) as Map<String, dynamic> );
   @override
   String toString() {
     return json.encode(toJson());

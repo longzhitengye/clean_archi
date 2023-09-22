@@ -1,3 +1,5 @@
 // coverage:ignore-file
-export './models/{{module_name}}_model.dart';
-export './repository/{{module_name}}_repository_impl.dart';
+export './datasources/datasources.dart';
+export './models/models.dart';
+export './repositories/repositories.dart';
+

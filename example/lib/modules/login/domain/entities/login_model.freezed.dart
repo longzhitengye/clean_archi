@@ -1,7 +1,7 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'login_model.dart';
 
@@ -27,16 +27,18 @@ mixin _$LoginModel {
 abstract class $LoginModelCopyWith<$Res> {
   factory $LoginModelCopyWith(
           LoginModel value, $Res Function(LoginModel) then) =
-      _$LoginModelCopyWithImpl<$Res>;
+      _$LoginModelCopyWithImpl<$Res, LoginModel>;
 }
 
 /// @nodoc
-class _$LoginModelCopyWithImpl<$Res> implements $LoginModelCopyWith<$Res> {
+class _$LoginModelCopyWithImpl<$Res, $Val extends LoginModel>
+    implements $LoginModelCopyWith<$Res> {
   _$LoginModelCopyWithImpl(this._value, this._then);
 
-  final LoginModel _value;
   // ignore: unused_field
-  final $Res Function(LoginModel) _then;
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 }
 
 /// @nodoc
@@ -47,28 +49,21 @@ abstract class _$$_LoginModelCopyWith<$Res> {
 }
 
 /// @nodoc
-class __$$_LoginModelCopyWithImpl<$Res> extends _$LoginModelCopyWithImpl<$Res>
+class __$$_LoginModelCopyWithImpl<$Res>
+    extends _$LoginModelCopyWithImpl<$Res, _$_LoginModel>
     implements _$$_LoginModelCopyWith<$Res> {
   __$$_LoginModelCopyWithImpl(
       _$_LoginModel _value, $Res Function(_$_LoginModel) _then)
-      : super(_value, (v) => _then(v as _$_LoginModel));
-
-  @override
-  _$_LoginModel get _value => super._value as _$_LoginModel;
+      : super(_value, _then);
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$_LoginModel implements _LoginModel {
-  const _$_LoginModel();
+class _$_LoginModel extends _LoginModel {
+  const _$_LoginModel() : super._();
 
   factory _$_LoginModel.fromJson(Map<String, dynamic> json) =>
       _$$_LoginModelFromJson(json);
-
-  @override
-  String toString() {
-    return 'LoginModel()';
-  }
 
   @override
   bool operator ==(dynamic other) {
@@ -88,8 +83,9 @@ class _$_LoginModel implements _LoginModel {
   }
 }
 
-abstract class _LoginModel implements LoginModel {
+abstract class _LoginModel extends LoginModel {
   const factory _LoginModel() = _$_LoginModel;
+  const _LoginModel._() : super._();
 
   factory _LoginModel.fromJson(Map<String, dynamic> json) =
       _$_LoginModel.fromJson;

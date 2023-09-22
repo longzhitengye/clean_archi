@@ -1,4 +1,4 @@
 // coverage:ignore-file
-export './screens/screen.dart';
+export './screens/screens.dart';
 export './views/views.dart';
-export './widgets/widget.dart';
+export './widgets/widgets.dart';
