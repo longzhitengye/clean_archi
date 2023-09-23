@@ -12,7 +12,7 @@ class LoginModel with _$LoginModel {
 
   const LoginModel._(); 
   factory LoginModel.fromString(String str) =>
-    LoginModel.fromJson(json.decode(str) as Map<String, dynamic>);
+    LoginModel.fromJson(json.decode(str) as Map<String, dynamic> );
   @override
   String toString() {
     return json.encode(toJson());
