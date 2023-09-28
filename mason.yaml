@@ -13,3 +13,5 @@ bricks:
   #     path: bricks/widget
   clean_archi:
     path: bricks/clean_archi
+  riverpod:
+    path: bricks/riverpod
