@@ -1,6 +1,6 @@
-name: riverpod
+name: riverpod_archi
 description: repository model for riverpod
-
+repository: https://github.com/longzhitengye/clean_archi
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
 # repository: https://github.com/my_org/my_repo
