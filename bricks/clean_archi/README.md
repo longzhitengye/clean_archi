@@ -1,12 +1,11 @@
 # clean_archi
 
-# clean_archi
-
 Generates a Flutter/Dart directories with Clean Architecture Structure.
 
 ## Requirements
 
 - Must have Flutter installed in your machine
+
 ## Usage 🚀
 
 ```sh
