@@ -7,13 +7,32 @@ environment:
   sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
+  darq: ^2.0.0
   flutter:
     sdk: flutter
+  fpdart: ^1.1.0
+  freezed_annotation: ^2.4.1
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+  json_annotation: ^4.8.1
+  logger: ^2.0.2+1
+  stack_trace: ^1.11.1
+  universal_io: ^2.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  bdd_widget_test: ^1.6.3
+  build_runner: ^2.4.7
+  flutter_gen_runner: ^5.3.2
+  freezed: ^2.4.6
+  golden_toolkit: ^0.15.0
+  injectable_generator: ^2.4.1
+  json_serializable: ^6.7.1
+  mocktail: ^1.0.2
+  melos: ^3.4.0
+  very_good_analysis: ^5.1.0
 
 flutter:
   uses-material-design: true
