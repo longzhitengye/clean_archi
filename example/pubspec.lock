@@ -41,6 +41,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.11.0"
+  auto_route:
+    dependency: "direct main"
+    description:
+      name: auto_route
+      sha256: "82f8df1d177416bc6b7a449127d0270ff1f0f633a91f2ceb7a85d4f07c3affa1"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "7.8.4"
   bdd_widget_test:
     dependency: "direct dev"
     description:
@@ -826,3 +834,4 @@ packages:
     version: "2.1.1"
 sdks:
   dart: ">=3.2.3 <4.0.0"
+  flutter: ">=3.13.0"

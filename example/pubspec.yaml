@@ -7,6 +7,7 @@ environment:
   sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
+  auto_route: ^7.8.4
   darq: ^2.0.0
   flutter:
     sdk: flutter
@@ -20,18 +21,18 @@ dependencies:
   universal_io: ^2.2.2
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
   bdd_widget_test: ^1.6.3
   build_runner: ^2.4.7
   flutter_gen_runner: ^5.3.2
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
   freezed: ^2.4.6
   golden_toolkit: ^0.15.0
   injectable_generator: ^2.4.1
   json_serializable: ^6.7.1
-  mocktail: ^1.0.2
   melos: ^3.4.0
+  mocktail: ^1.0.2
   very_good_analysis: ^5.1.0
 
 flutter:
