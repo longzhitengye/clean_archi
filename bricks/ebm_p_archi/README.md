@@ -30,29 +30,32 @@ A flutter app with the following structure in the ```lib``` folder
 |   |-- data
 |   |   |-- data.dart
 |   |   |-- datasources
-|   |   |   |-- datasources.dart
-|   |   |   |-- local_datasource.dart
+|   |   |   |-- datasources.dart      
+|   |   |   |-- local_datasource.dart 
 |   |   |   `-- remote_datasource.dart
 |   |   |-- dtos
 |   |   |   |-- dto_mapper
 |   |   |   |-- dtos.dart
 |   |   |   |-- local
 |   |   |   `-- remote
+|   |   |-- extensions
+|   |   |   `-- extensions.dart  
 |   |   |-- mappers
-|   |   |   `-- mappers.dart
+|   |   |   `-- mappers.dart     
 |   |   `-- repositories
 |   |       `-- repositories.dart
 |   |-- domain
 |   |   |-- domain.dart
-|   |   `-- entities
-|   |       `-- entities.dart
+|   |   |-- entities
+|   |   |   `-- entities.dart    
+|   |   `-- extensions
+|   |       `-- extensions.dart
 |   `-- presentation
 |       |-- blocs
 |       |   `-- blocs.dart
 |       |-- exports
-|       |   |-- exports.dart
-|       |   |-- screens
-|       |   `-- widgets
+|       |   |-- export_widget_screen_a
+|       |   `-- exports.dart
 |       |-- presentation.dart
 |       `-- widgets
 |           `-- widgets.dart

@@ -1,7 +1,7 @@
 name: ebm_p_archi
 description: Generates a new Flutter/Dart package with a clean architecture structure for ebming .
 repository: https://github.com/longzhitengye/clean_archi
-version: 0.1.0+1
+version: 0.1.0+2
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
